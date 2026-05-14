@@ -57,7 +57,7 @@ _delete_all_from_pkgdir_except() {
     rm -r "${pkgdir}"/usr/share/gnome-shell/{extensions,modes}
   fi
   # Delete remaining empty directories:
-  find "${pkgdir}" -type d -empty -delete
+  find "${pkgdir}" -type d -empty -not -path "*/DEBIAN" -delete
 }
 
 package() {
