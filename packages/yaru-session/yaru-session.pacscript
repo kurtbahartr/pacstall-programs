@@ -21,7 +21,7 @@ build() {
     --buildtype plain \
     --auto-features enabled \
     --wrap-mode nodownload \
-    "${pkgbase}"-"${pkgver}" build
+    yaru-"${pkgver}" build
   meson configure build -Dubuntu-unity=true -Dxfwm4=true
   ninja -C build
 }
