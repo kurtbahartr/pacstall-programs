@@ -4,7 +4,7 @@ pkgdesc="Yaru default ubuntu icon theme"
 depends=("hicolor-icon-theme" "gtk-update-icon-cache" "librsvg2-2")
 arch=(any)
 url="https://github.com/ubuntu/yaru"
-license=('GPL3')
+license=('GPL-3.0')
 
 makedepends=('meson' 'sassc' 'git')
 

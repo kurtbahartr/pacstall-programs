@@ -4,7 +4,7 @@ pkgdesc="Yaru default ubuntu theme"
 pkgdesc="Yaru default ubuntu unity theme"
 arch=(any)
 url="https://github.com/ubuntu/yaru"
-license=('GPL3')
+license=('GPL-3.0')
 
 makedepends=('meson' 'sassc' 'git')
 

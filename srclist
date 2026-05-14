@@ -18113,7 +18113,7 @@ pkgbase = yaru-gnome-shell-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18131,7 +18131,7 @@ pkgbase = yaru-gtk-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18145,7 +18145,7 @@ pkgbase = yaru-gtksourceview-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18162,7 +18162,7 @@ pkgbase = yaru-icon-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18177,7 +18177,7 @@ pkgbase = yaru-icon-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18193,7 +18193,7 @@ pkgbase = yaru-session
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18207,7 +18207,7 @@ pkgbase = yaru-sound-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18221,7 +18221,7 @@ pkgbase = yaru-unity-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
@@ -18235,7 +18235,7 @@ pkgbase = yaru-xfwm4-theme
 	makedepends = meson
 	makedepends = sassc
 	makedepends = git
-	license = GPL3
+	license = GPL-3.0
 	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
 	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
 
