@@ -18213,6 +18213,20 @@ pkgbase = yaru-sound-theme
 
 pkgname = yaru-sound-theme
 ---
+pkgbase = yaru-unity-theme
+	pkgver = 26.04.5.1ubuntu
+	pkgdesc = Yaru default ubuntu unity theme
+	url = https://github.com/ubuntu/yaru
+	arch = any
+	makedepends = meson
+	makedepends = sassc
+	makedepends = git
+	license = GPL3
+	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
+	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
+
+pkgname = yaru-unity-theme
+---
 pkgbase = yle-dl-git
 	gives = yle-dl
 	pkgver = 20250730
