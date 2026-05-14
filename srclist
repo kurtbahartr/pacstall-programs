@@ -18183,6 +18183,22 @@ pkgbase = yaru-icon-theme
 
 pkgname = yaru-icon-theme
 ---
+pkgbase = yaru-session
+	pkgver = 26.04.5.1ubuntu
+	pkgdesc = Yaru session
+	url = https://github.com/ubuntu/yaru
+	arch = any
+	depends = gnome-shell
+	depends = yaru-gnome-shell-theme
+	makedepends = meson
+	makedepends = sassc
+	makedepends = git
+	license = GPL3
+	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
+	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
+
+pkgname = yaru-session
+---
 pkgbase = yle-dl-git
 	gives = yle-dl
 	pkgver = 20250730
