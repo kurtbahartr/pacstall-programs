@@ -18119,6 +18119,24 @@ pkgbase = yaru-gnome-shell-theme
 
 pkgname = yaru-gnome-shell-theme
 ---
+pkgbase = yaru-gtk-theme
+	pkgver = 26.04.5.1ubuntu
+	pkgdesc = Yaru default ubuntu gtk theme
+	url = https://github.com/ubuntu/yaru
+	arch = any
+	depends = libgtk-3-bin
+	depends = libgdk-pixbuf2.0-bin
+	depends = gtk2-engines-murrine
+	depends = gnome-themes-extra
+	makedepends = meson
+	makedepends = sassc
+	makedepends = git
+	license = GPL3
+	source = https://github.com/ubuntu/yaru/archive/26.04.5.1ubuntu.tar.gz
+	sha256sums = 4e35b71d37aedb44302c811f63d325f4abd7699961f76f130323b361d4c6a7d7
+
+pkgname = yaru-gtk-theme
+---
 pkgbase = yaru-gtksourceview-theme
 	pkgver = 26.04.5.1ubuntu
 	pkgdesc = Yaru default ubuntu gtksourceview theme
