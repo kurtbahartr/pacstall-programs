@@ -1,6 +1,5 @@
 pkgname="yaru-unity-theme"
 pkgver=26.04.5.1ubuntu
-pkgdesc="Yaru default ubuntu theme"
 pkgdesc="Yaru default ubuntu unity theme"
 arch=(any)
 url="https://github.com/ubuntu/yaru"
