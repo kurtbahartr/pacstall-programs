@@ -1,7 +1,8 @@
 pkgname="yaru-session"
 pkgver=26.04.5.1ubuntu
 pkgdesc="Yaru session"
-depends=("gnome-shell" "yaru-gnome-shell-theme")
+depends=("gnome-shell")
+pacdeps=("yaru-gnome-shell-theme")
 arch=(any)
 url="https://github.com/ubuntu/yaru"
 license=('GPL-3.0')
