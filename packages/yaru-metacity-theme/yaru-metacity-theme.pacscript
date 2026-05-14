@@ -4,7 +4,7 @@ pkgdesc="Yaru default ubuntu metacity theme"
 depends=(metacity)
 arch=(any)
 url="https://github.com/ubuntu/yaru"
-license=('GPL3')
+license=('GPL-3.0')
 
 makedepends=('meson' 'sassc' 'git')
 

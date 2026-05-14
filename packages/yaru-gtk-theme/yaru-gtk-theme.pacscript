@@ -4,7 +4,7 @@ pkgdesc="Yaru default ubuntu gtk theme"
 depends=("libgtk-3-bin" "libgdk-pixbuf2.0-bin" "gtk2-engines-murrine" "gnome-themes-extra")
 arch=(any)
 url="https://github.com/ubuntu/yaru"
-license=('GPL3')
+license=('GPL-3.0')
 
 makedepends=('meson' 'sassc' 'git')
 

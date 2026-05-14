@@ -3,7 +3,7 @@ pkgver=26.04.5.1ubuntu
 pkgdesc="Yaru default ubuntu xfwm4 theme"
 arch=(any)
 url="https://github.com/ubuntu/yaru"
-license=('GPL3')
+license=('GPL-3.0')
 
 makedepends=('meson' 'sassc' 'git')
 

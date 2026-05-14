@@ -5,7 +5,7 @@ depends=("gnome-shell")
 pacdeps=("yaru-gnome-shell-theme")
 arch=(any)
 url="https://github.com/ubuntu/yaru"
-license=('GPL3')
+license=('GPL-3.0')
 
 makedepends=('meson' 'sassc' 'git')
 

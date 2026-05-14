@@ -4,7 +4,7 @@ pkgdesc="Yaru default ubuntu gnome shell theme"
 depends=("gnome-shell")
 arch=(any)
 url="https://github.com/ubuntu/yaru"
-license=('GPL3')
+license=('GPL-3.0')
 
 makedepends=('meson' 'sassc' 'git')
 
