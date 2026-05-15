@@ -10968,6 +10968,20 @@ pkgbase = obsidian-deb
 
 pkgname = obsidian-deb
 ---
+pkgbase = odin4-cli
+	pkgver = 1.2.1.dc05e3ea
+	pkgdesc = an Odin4 binary for flashing Samsung firmware
+	url = https://forum.xda-developers.com/t/official-samsung-odin-v4-1-2-1-dc05e3ea-for-linux.4453423/
+	arch = x86_64
+	depends = libc-bin
+	license = custom:Samsung
+	source = odin4-cli-1.2.1.dc05e3ea.zip::https://github.com/MizProject/mizrepo/raw/refs/heads/main/aur/amd64/odin4-cli/odin4-cli-1.2.1.dc05e3ea.zip
+	source = 60-odin4.rules
+	sha256sums = ac1cd7fdf5330ab25c052da8646f9cd114fc88a5742cf84f5e960bbffcf106a4
+	sha256sums = 286344abeb036d9c9341396653eaaefc1c7376adb345cbb7b58a126056a3a40f
+
+pkgname = odin4-cli
+---
 pkgbase = oh-my-posh-git
 	gives = oh-my-posh
 	pkgver = 20.0.0
