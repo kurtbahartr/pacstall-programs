@@ -4171,6 +4171,29 @@ pkgbase = gamescope-session-git
 
 pkgname = gamescope-session-git
 ---
+pkgbase = gamescope-session-steam-git
+	pkgver = 10.1a3fdb7
+	pkgrel = 1
+	pkgdesc = Steam Big Picture session based on gamescope
+	url = https://github.com/OpenGamingCollective/gamescope-session-steam
+	arch = any
+	makedepends = git
+	pacdeps = gamescope-session-git
+	pacdeps = steamos-gamescope-theme
+	license = MIT
+	source = gamescope-session-steam::git+https://github.com/OpenGamingCollective/gamescope-session-steam.git
+	source = jupiter-biosupdate
+	source = steamos-select-branch
+	source = steamos-session-select
+	source = steamos-update
+	md5sums = SKIP
+	md5sums = bde4f75812d1b7d2525ac48db92a37b1
+	md5sums = 447a60f602a68f47d6c11edc462bbdd0
+	md5sums = 74f3870f9b69cdceaadeddf41270d74d
+	md5sums = 29a816f2e54d554ab0f7e3e20912719c
+
+pkgname = gamescope-session-steam-git
+---
 pkgbase = gearlever-git
 	gives = gearlever
 	pkgver = 4.0.3
