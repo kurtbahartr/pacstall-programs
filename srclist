@@ -4156,6 +4156,21 @@ pkgbase = galaxybudsclient-bin
 
 pkgname = galaxybudsclient-bin
 ---
+pkgbase = gamescope-session-git
+	pkgver = 339.b5c2d0d
+	pkgrel = 1
+	pkgdesc = Common gamescope session files
+	url = https://github.com/OpenGamingCollective/gamescope-session
+	arch = any
+	depends = gamescope
+	makedepends = git
+	optdepends = mangohud: for performance overlay
+	license = MIT
+	source = gamescope-session::git+https://github.com/OpenGamingCollective/gamescope-session.git
+	md5sums = SKIP
+
+pkgname = gamescope-session-git
+---
 pkgbase = gearlever-git
 	gives = gearlever
 	pkgver = 4.0.3
