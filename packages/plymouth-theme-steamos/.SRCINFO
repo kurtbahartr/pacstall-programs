@@ -1,0 +1,11 @@
+pkgbase = plymouth-theme-steamos
+	pkgver = 0.0
+	pkgdesc = Simple device-branded SteamOS splash screen (from HoloISO)
+	url = https://github.com/HoloISO/postcopy
+	arch = any
+	depends = plymouth
+	license = MIT
+	source = postcopy::git+https://github.com/HoloISO/postcopy#branch=rel
+	md5sums = SKIP
+
+pkgname = plymouth-theme-steamos
