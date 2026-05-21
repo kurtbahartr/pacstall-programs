@@ -1,0 +1,12 @@
+pkgbase = steamos-gamescope-theme
+	pkgver = 0.0
+	pkgrel = 1
+	pkgdesc = SteamOS theme for Steam Big Picture session (from HoloISO)
+	url = https://github.com/HoloISO/postcopy
+	arch = any
+	pacdeps = plymouth-theme-steamos
+	license = MIT
+	source = postcopy::git+https://github.com/HoloISO/postcopy#branch=rel
+	md5sums = SKIP
+
+pkgname = steamos-gamescope-theme
