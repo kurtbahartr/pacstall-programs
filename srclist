@@ -4194,6 +4194,31 @@ pkgbase = gamescope-session-steam-git
 
 pkgname = gamescope-session-steam-git
 ---
+pkgbase = gdm-settings
+	pkgver = 5.0
+	pkgrel = 1
+	pkgdesc = A settings app for Gnome's Login Manager, GDM
+	url = https://gdm-settings.github.io
+	arch = any
+	depends = gdm3
+	depends = python3-gi
+	depends = gettext
+	depends = libpolkit-gobject-1-0
+	makedepends = libadwaita-1-dev
+	makedepends = libglib2.0-dev
+	makedepends = python-gi-dev
+	makedepends = libpolkit-gobject-1-dev
+	makedepends = meson
+	makedepends = blueprint-compiler
+	makedepends = python3-gi
+	makedepends = gobject-introspection
+	checkdepends = appstream
+	license = AGPL-3.0
+	source = gdm-settings-5.0.tar.gz::https://github.com/gdm-settings/gdm-settings/archive/refs/tags/v5.0.tar.gz
+	sha256sums = adfc33250589217531e9fa679cad03cbe7c845b39fb99fcc226329453ce0ac40
+
+pkgname = gdm-settings
+---
 pkgbase = gearlever-git
 	gives = gearlever
 	pkgver = 4.0.3
