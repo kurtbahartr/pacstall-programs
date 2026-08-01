@@ -1,9 +1,7 @@
-# Maintainer: Joaquín I. Aramendía <samsagax at gmail dot com>
-
 pkgname=gamescope-session-git
 _gitdir=gamescope-session
 pkgver=339.b5c2d0d
-pkgrel=1
+pkgrel=2
 pkgdesc="Common gamescope session files"
 arch=('any')
 url="https://github.com/OpenGamingCollective/${_gitdir}"
@@ -13,8 +11,10 @@ depends=('gamescope')
 makedepends=('git')
 optdepends=('mangohud: for performance overlay')
 install=gamescope-session.install
-source=("${_gitdir}::git+${url}.git")
-md5sums=('SKIP')
+source=("${_gitdir}::git+${url}.git"
+  "gamescope-session-plus")
+md5sums=('SKIP'
+  '4d4173d5c64c074795f9c6c0907e116f')
 
 pkgver() {
   cd "${srcdir}/${_gitdir}"
@@ -32,5 +32,10 @@ prepare() {
 package() {
   cd "${srcdir}/${_gitdir}"
   cp -rv "${srcdir}/${_gitdir}/usr" "${pkgdir}/usr"
+
+  # Debian installs `gamescope` into /usr/games.
+  # Because of this, the executable cannot be found in default locations
+  # which causes the session to crash.
+  cp -v "${srcdir}/gamescope-session-plus" "${pkgdir}/usr/share/gamescope-session-plus/gamescope-session-plus"
   install -Dm644 "${srcdir}/${_gitdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
